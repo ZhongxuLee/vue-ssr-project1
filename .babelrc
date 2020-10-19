@@ -1,0 +1,15 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        // 按需加载
+        "useBuiltIns": "usage",
+        // 指定 core-js 的版本
+        "corejs": {
+          "version": 3
+        }
+      }
+    ]
+  ]
+}
